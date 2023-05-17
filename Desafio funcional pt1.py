@@ -18,12 +18,12 @@ class Inmueble:
         if habitaciones < 2:
             print('Inmueble menor de 2 habitaciones no se toma en cuenta')
             return
-        inmueble = {'Año' : antiguedad,                   #'Año' : antiguedad                                                                 
-                    'metros' : metros,               #'metos' : metros
-                    'habitaciones' : habitaciones,               #'habitaciones' : habitaciones
-                    'garaje' : garaje,             #'garaje' : garaje
-                    'zona' : zona,               #'zona' : zona
-                    'estado' : estado}              #'estado' : estado
+        inmueble = {'Año' : antiguedad,                                                                                  
+                    'metros' : metros,               
+                    'habitaciones' : habitaciones,             
+                    'garaje' : garaje,            
+                    'zona' : zona,               
+                    'estado' : estado}              
         self.lista_inmuebles.append(inmueble)
         print('Inmueble agregado')
 
@@ -166,7 +166,6 @@ def menu():
             
             print(f'Se encontraron {len(resultados)} resultado/s:')
             for res in resultados:
-         # no incluir el precio en la impresión del resultado
                 resultado = {k: v for k, v in res.items() if k != 'precio'}
                 print(resultado)
             print("Contante con el vendedor para mas informacion")
