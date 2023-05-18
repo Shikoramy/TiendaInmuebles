@@ -173,3 +173,10 @@ def menu():
             break
 
 menu()
+#Integrantes:
+#Fernando Javier Svoboda
+#Jose Gabriel Acuña
+#Antonella Ruelli
+#Mario Hayes
+#Mauro Alejandro Davila
+#Mati Ayala Matias Rodrigo
